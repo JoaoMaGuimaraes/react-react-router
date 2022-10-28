@@ -12,7 +12,7 @@ const Posts = () => {
     }, []);
     return (
         <div>
-            <button onClick={() => navigate(+1)}>next</button>
+            <button onClick={() => navigate(+1)}>NEXT</button>
             <h2>All Posts:</h2>
             <h5>(Pick one)</h5>
             {posts.map((post) => {
@@ -22,7 +22,6 @@ const Posts = () => {
                     </Link>
                 );
             })}
-            <button onClick={() => navigate(+1)}>Next</button>
         </div>
     );
 };
